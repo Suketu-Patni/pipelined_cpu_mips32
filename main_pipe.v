@@ -1,5 +1,3 @@
-// see notebook for full explanation
-
 module pipe_mips32(clk1, clk2);
     input clk1, clk2; // two phase clock
     reg [31:0] pc, if_id_ir, if_id_npc;
